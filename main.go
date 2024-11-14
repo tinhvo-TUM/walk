@@ -74,7 +74,7 @@ var (
 	keyPreview   = key.NewBinding(key.WithKeys(" "))
 	keyDelete    = key.NewBinding(key.WithKeys("d"))
 	keyUndo      = key.NewBinding(key.WithKeys("u"))
-	keyYank      = key.NewBinding(key.WithKeys("y"))
+	keyYank      = key.NewBinding(key.WithKeys("ctrl+shift+c"))
 	keyHidden    = key.NewBinding(key.WithKeys("."))
 )
 
